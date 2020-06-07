@@ -1,0 +1,65 @@
+.index-app{
+  min-height: 100vh;
+}
+
+.wrap{
+  margin: 0 5px;
+
+}
+#header{
+  padding: 0;
+}
+#footer{
+  padding: 24px 0;
+
+}
+.logo{
+  margin-bottom: 0;
+  /*color: #FFFFFF;*/
+  text-align: center;
+}
+.topics-list{
+  background-color: #FFFFFF;
+  padding: 0 8px;
+
+}
+.index-nav{
+  margin-top: 10px;
+}
+.from-now{
+  text-align: right;
+}
+.index-pagination{
+  padding: 8px 0;
+  text-align: center;
+}
+@media all and (min-width: 576px) {
+  .wrap{
+    margin: 0 10px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .wrap{
+    margin: 0 15px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .wrap{
+    margin: 0 20px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .wrap{
+    margin: 0 auto;
+    width: 980px;
+  }
+}
+
+@media all and (min-width: 1600px) {
+  .wrap{
+    width: 1200px;
+  }
+}
